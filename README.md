@@ -24,7 +24,7 @@ Pastikan Anda sudah menginstal:
 Jalankan perintah berikut untuk menyalin repository ke komputer Anda:
 
 ```bash
-git clone https://github.com/sukundev/siswa-management.git
+git clone https://github.com/SukunDev/siswa-management.git
 cd siswa-management
 ```
 
@@ -107,4 +107,4 @@ npm run dev
 ## Catatan
 
 Pastikan MySQL sudah berjalan di sistem Anda.
-Gunakan nilai unik dan rahasia untuk JWT_SECRET di file `.env`.
+Gunakan nilai unik dan rahasia untuk `JWT_SECRET` di file `.env`.
