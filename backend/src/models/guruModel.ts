@@ -87,7 +87,7 @@ Guru.init(
   {
     sequelize,
     modelName: "Guru",
-    tableName: "gurus",
+    tableName: "guru",
   }
 );
 

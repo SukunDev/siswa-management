@@ -87,7 +87,7 @@ Siswa.init(
   {
     sequelize,
     modelName: "Siswa",
-    tableName: "siswas",
+    tableName: "siswa",
   }
 );
 
