@@ -1,5 +1,7 @@
 import HomeNavbar from "@/components/homeNavbar";
 import Image from "next/image";
+import backhero from "./backhero.png";
+import homepageSVG from "./homepage-header-1.svg";
 
 export default function Home() {
   return (
@@ -9,7 +11,7 @@ export default function Home() {
 
         <section className="bg-[#140648] overflow-hidden relative z-0">
           <Image
-            src={`${process.env.NEXT_PUBLIC_REST_API_URL}/image/backhero.png`}
+            src={backhero}
             alt=""
             height={1276}
             width={1974}
@@ -36,7 +38,7 @@ export default function Home() {
               </div>
               <div className="my-auto basis-full md:basis-1/2">
                 <Image
-                  src={`${process.env.NEXT_PUBLIC_REST_API_URL}/image/homepage-header-1.svg`}
+                  src={homepageSVG}
                   alt=""
                   width={371}
                   height={406}

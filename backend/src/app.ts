@@ -1,6 +1,5 @@
 import express from "express";
 import cors from "cors";
-import path from "path";
 
 import homeRoute from "./routes/homeRoute";
 import authRoute from "./routes/authRoute";
@@ -15,8 +14,6 @@ const app = express();
 
 app.use(express.json());
 app.use(cors());
-
-app.use("/", express.static(path.join(__dirname, "../public")));
 
 app.use("/", homeRoute);
 app.use("/auth", authRoute);

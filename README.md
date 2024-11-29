@@ -2,6 +2,8 @@
 
 Proyek ini merupakan aplikasi manajemen siswa yang dibuat untuk memenuhi kebutuhan tes coding di PT Bratamedia. Aplikasi ini terdiri dari dua bagian utama: `backend` dan `frontend`.
 
+<img src="./previews.PNG" alt="previews">
+
 ## Fitur Utama
 
 - CRUD data Siswa.
