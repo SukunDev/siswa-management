@@ -100,6 +100,13 @@ cd frontend
 npm run dev
 ```
 
+### 3. Buka Server
+
+Buka url frontend nya. biasanya berada di `http://localhost:3000`
+
+- username : admin
+- password : admin
+
 ## Teknologi yang Digunakan
 
 - Backend: Node.js, Express, MySQL
